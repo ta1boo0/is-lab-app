@@ -1,0 +1,7 @@
+name: Fix OpenApi package reference
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello"
